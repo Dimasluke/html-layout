@@ -1,0 +1,35 @@
+body {
+    background-color: #EAE7DC;
+    margin: 0;
+}
+
+header {
+    background-color: #D8C3A5;
+    height: 150px;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+section {
+    height: 200px;
+    background-color: #8E8D8A;
+}
+
+.sectionOne {
+    background-color: #E98074;
+    height: 150px;
+}
+.sectionTwo {
+    background-color: #E85A4F;
+    height: 150px;
+}
+.sectionThree {
+    background-color: #EAE7DC;
+    height: 150px;
+}
+.sectionFour {
+    background-color: #D8C3A5;
+    height: 150px;
+}

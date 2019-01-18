@@ -1,0 +1,83 @@
+body {
+    background: #242582;
+}
+
+header {
+    background-color: #553D67;
+    height: 200px;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+div {
+    background-color: #F64C72;
+    width: 15%;
+    height: 75px;
+    border: 1px solid black;
+    float: left;
+}
+
+.standingRectangle {
+    width: 40px;
+    margin-left: 15px;
+    height: 65%;
+    margin-top: 55px;
+    margin-right: 50px;
+    border: none;
+}
+
+.bigRectangle {
+    margin-left: 20px;
+    height: 85%;
+    margin: 13px 20px;
+    width: 40%;
+    border: none;
+    background-color: #99738E;
+}
+
+.circle {
+    height: 170px;
+    width: 170px;
+    margin: 13px 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #2F2FA2;
+}
+
+.middleContent {
+    background-color: #99738E;
+    height: 300px;
+    margin: 20px;
+    border: dotted;
+}
+
+.shadowedBox {
+    background-color: #2F2FA2;
+    height: 225px;
+    width: 80%;
+    margin: 35px 175px;
+    border: none;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.795);
+}
+
+.helloFriends {
+    background-color: #553D67;
+    height: 300px;
+    width: 30%;
+    margin: 15px auto;
+    border: 1px solid;
+    position: relative;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 10px;
+    color: #F64C72;
+}
